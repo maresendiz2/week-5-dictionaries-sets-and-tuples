@@ -112,7 +112,7 @@ t = (1, 2, 3)
 # print(bool) #false
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
-import math
+# import math
 # print(math.sqrt(25) == 5)
 # var1 = math.sqrt(25)
 # var2 = 5
@@ -127,10 +127,10 @@ import math
 # employee = {'first_name': 'steven',
 #             'last_name': 'pretti',
 #              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
+#               'size': 5.77,
+#              'height': 6}
 # print(employee['weight'])
-
+# print(employee['last_name'])
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
 # name: Karen
@@ -138,21 +138,25 @@ import math
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
-
+my_dict2 = {'first_name': 'Karen',
+            'surname': 'Jurgens',
+             'age': 35,
+              'occupation': 'Journalist'}
+print(my_dict2['occupation'])
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
 
 # If the value 300 were to change in the future, the code should work the same to return the value at that same position. To do this, you must refer to the names of the keys and/or indexes as appropriate.
-my_dict = {
-    "values_1": {
-        "v1": 3,
-        "v2": 6
-    },
-    "points": {
-        "points1": 9,
-        "points2": [10, 300, 15]
-    }
-}
+# my_dict = {
+#     "values_1": {
+#         "v1": 3,
+#         "v2": 6
+#     },
+#     "points": {
+#         "points1": 9,
+#         "points2": [10, 300, 15]
+#     }
+# }
 # print(my_dict[]) #Use dictionary indices to extract the second item of points2
 
 #challenge 2
