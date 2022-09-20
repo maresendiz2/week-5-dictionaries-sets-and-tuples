@@ -60,20 +60,20 @@ t = (1, 2, 3)
 # print(s3)
 # # Remove a random item from the following set, using set methods.
 
-raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-raffle.remove("Phoebe")
-print(raffle)
+# raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+# raffle.remove("Phoebe")
+# print(raffle)
 
-# Add the name Gunther to the following set, using set methods:
+# # Add the name Gunther to the following set, using set methods:
 
-raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-raffle.add("Gunther")
-print(raffle)
+# raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+# raffle.add("Gunther")
+# print(raffle)
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
 # my_bool = 5 > 4
-#print(my_bool)
+# print(my_bool)
 
 # > greater
 # < less
@@ -83,8 +83,9 @@ print(raffle)
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
+# my_list = {1,2,3,4,5,6,7}
+# my_bool = 5 in my_list #true
+# my_bool = 5 not in my_list #false
 
 # so we can see if we can make logical decisions if something is true or not
 # var1 = True
@@ -100,12 +101,23 @@ print(raffle)
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
-
+# var1 = 3
+# var2 = 5
+# test = var1 > var2
+# print(test) #false
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
+# var1 = 17834/34
+# var2 = 87*56
+# bool = var1 > var2
+# print(bool) #false
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
-
-
+import math
+# print(math.sqrt(25) == 5)
+# var1 = math.sqrt(25)
+# var2 = 5
+# bool = var1 == var2
+# print(bool) #false
 
 #############################################next week ################################################
 #dictionaries and  sets
